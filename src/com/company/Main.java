@@ -28,7 +28,7 @@ public class Main {
 
         GregorianCalendar time = new GregorianCalendar();
         int hour = time.get(Calendar.HOUR_OF_DAY);
-if(hour<12) {
+if(hour < 12) {
     System.out.println("Good morning " + "" + name);
 }
 else
@@ -58,7 +58,7 @@ else
         {
             difference = "Younger";
         }
-        System.out.println("I am " + ">>" + sysAge + " " + "years old, which is  " + ageDif + " years " + difference + " than you." );
+        System.out.println("I am "  + age + " " + "years old, which is  " + ageDif + " years " + difference + " than you." );
 
         if(sysAge % 2 == 0)
         {
